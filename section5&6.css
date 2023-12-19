@@ -1,0 +1,281 @@
+@import url("./article.css");
+
+#section5{
+    /* border: 2px solid red; */
+    display: flex;
+    color: black;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-top: 8%;
+    justify-content:space-evenly;
+    align-items: center;
+    /* padding-top: 10%; */
+}
+#section5>div>video{
+    /* border: 3px solid blue; */
+    height: 800px;
+    width: 700px;
+    /* margin-left: 10%; */
+}
+
+#section5>div+div>h1{
+    /* border: 3px solid; */
+    padding-top: 10%;
+    font-size: 50px;
+}
+#section5>div+div>h1+h1{
+    /* border: 2px solid green; */
+    font-size: 25px;
+
+}
+#section5>div+div>h1+h1+p+h1{
+    /* border: 2px solid green; */
+    font-size: 25px;
+}
+#section5>div+div>h1+p{
+    /* border: 3px solid; */
+       /* margin-left: 70%; */
+       color: gray;
+}
+
+
+/* SECTION6 */
+
+#section6{
+    /* border: 4px solid red; */
+    color: black;
+    background-color: rgb(241, 246, 233);
+    margin-top: 10%;
+    height: 1100px;
+} 
+#section6>h1{
+    /* border: 2px solid; */
+    width: 500px;
+    font-size: 45px;
+    margin-left: 15%;
+    padding-top: 8%;
+    /* margin-top: 10%; */
+}
+#section6-div1{
+    /* border: 3px solid yellow; */
+    margin-left: 10%;
+    margin-right: 15%;
+    margin-top: 3%;
+    display: flex;
+}
+#section6-div1>div+div{
+    /* border: 3px solid red; */
+    margin-left: 5%;
+}
+#section6-div1>div+div>p{
+    /* border: 3px solid ; */
+    font-size: 20px;
+}
+#section6-div1>div+div+div>p>button{
+    border: none;
+    height: 40px;
+    width: 200px;
+    font-weight: 600;
+    color: #16AA51;
+    background-color: rgba(22, 170, 81, 0.1);
+}
+#insurance-shop-img{
+    /* border: 2px solid red; */
+    height: 350px;
+    width: 100%;
+}
+#section6-div1>div+div>p+h2{
+    /* border: 2px solid red; */
+    margin-top: 5%;
+    font-size: 30px;
+    color: #000000;
+}
+#section6-div1>div+div>div{
+    /* border: 3px solid; */
+    margin-top: 28%;
+    display: flex;
+    justify-content: space-between;
+}
+#insurance{
+    display: flex;
+    /* justify-content: space-around; */
+    /* border: 3px solid blue; */
+    width: 1100px;
+    margin-left: 12%;
+    margin-right: 5%;
+    margin-top: 7%;
+}
+.insurance-img{
+    /* border: 2px solid; */
+    display: flex;
+    margin-left: 10%;
+    width: 700px;
+    justify-content:space-around;
+}
+#insurance>div>p{
+    /* border: 3px solid; */
+    font-size: 23px;
+}
+#insurance>div>p+h1{
+    /* border: 2px solid; */
+    margin-top: 8%;
+    color: #000000;
+}
+#insurance>div>p+h1+h1{
+    /* border: 3px solid; */
+    margin-top: 20%;
+    font-size: 20px;
+    color: #16AA51;
+}
+#mobile-content{
+    display: none;
+}
+
+@media only screen and (max-width:430px)
+{
+    #section5{
+    /* border: 2px solid red; */
+    width: 100%;
+    display: flex;
+    display:none;
+    overflow-x: scroll;
+    color: black;
+    margin-right:0px;
+    margin-left: 0px;
+    margin-top: 20%;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+
+#section6{
+    /* border: 4px solid red; */
+    color: black;
+    width: 100%;
+    background-color: rgb(241, 246, 233);
+    margin-top: 10%;
+    height:1250px;
+} 
+#section6>h1{
+    /* border: 2px solid; */
+    width: 100%;
+    font-size: 40px;
+    margin-left:0%;
+    padding-top: 8%;
+    padding-left: 10px;
+}
+#section6-div1{
+    /* border: 3px solid yellow; */
+    margin-left: 0%;
+    margin-right:0%;
+    margin-top: 3%;
+    display: flex;
+    height: 630px;
+    flex-direction: column;
+}
+#mobile-content{
+    /* border: 2px solid blue; */
+    display: block;
+}
+#mobile-content>p{
+    /* border: 3px solid ; */
+    padding-top: 5%;
+    padding-left: 10px;
+    font-size: 20px;
+}
+#mobile-content>p>button{
+    border:none;
+    height: 40px;
+    width: 200px;
+    font-weight: 600;
+    color: #16AA51;
+    background-color: rgba(22, 170, 81, 0.1);
+
+}
+#mobile-content>p+h2{
+    /* border: 2px solid blueviolet ; */
+    margin-top:0%;
+    padding-top: 5%;
+    padding-left: 10px;
+    font-size: 25px;
+    color: #000000;
+    
+}
+#insurance-shop-img{
+    /* border: 2px solid red; */
+    height: 300px;
+    width: 98%;
+    padding-left: 2px;
+    padding-top: 20px;
+}
+#mobile-content+div+div>div{
+    /* border: 3px solid blue; */
+    border-bottom: 2px solid gray;
+    height: 150px;
+    width: 100%;
+    margin-top: 7%;
+    margin-left:0%;
+}
+#section6-div1>div+div+div>p{
+    display: none;
+
+}
+#section6-div1>div+div+div>p>button{
+    display: none;
+   
+}
+#section6-div1>div+div+div>p+h2{
+    display: none;
+}
+
+#insurance{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* border: 3px solid blue; */
+    width: 100%;
+    margin-left:0%;
+    margin-right:0%;
+    margin-top: 7%;
+}
+.insurance-img{
+    /* border: 2px solid yellow; */
+   display: flex;
+   overflow-x: scroll;
+   margin-left:0%;
+   padding-top: 10%;
+   padding-left: 5%;
+   width: 100%;
+   /* width: 550px; */
+   gap: 10px;
+  
+}
+.first-img{
+    /* border: 2px solid red; */
+    width: 170px;
+   
+}
+#insurance>div>p{
+    /* border: 3px solid; */
+    font-size: 23px;
+    padding-top: 5%;
+}
+#insurance>div>p+h1{
+    /* border: 2px solid; */
+    padding-top: 5%;
+    margin-top: 0%;
+    color: #000000;
+}
+#insurance>div>p+h1+h1{
+    /* border: 3px solid; */
+    margin-top: 0%;
+    font-size: 20px;
+    padding-top: 5%;
+    color: #16AA51;
+}
+
+
+
+}
+
+

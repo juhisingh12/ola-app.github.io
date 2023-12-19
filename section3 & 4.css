@@ -1,0 +1,116 @@
+@import url("./section5&6.css");
+
+#section3{
+    /* border: 4px solid blueviolet; */
+    margin-top: 12%;
+    height: 1000px;
+    background-color:black;
+}
+#section3>h1{
+    /* border: 3px solid green; */
+    margin-left: 18%;
+    padding-top: 8%;
+    font-size: 45px;
+}
+#section3>h1+video{
+    /* border: 4px solid blue; */
+    height: 580px;
+    width: 1200px;
+    margin-left: 18%;
+    margin-top: 4%;
+
+}
+#section4{
+    /* border: 3px solid green; */
+    margin-left:18%;
+    margin-right: 10%;
+    margin-top: 10%;
+    
+}
+#there-an{
+    /* border: 2px solid blueviolet; */
+    padding-top: 5%;
+    display: flex;
+    gap: 40px;
+
+}
+.there-an>img+h1{
+    /* border: 2px solid red; */
+    color: black;
+    padding-top: 30px;
+}
+.there-an>img+h1+p{
+    /* border: 2px solid yellow; */
+    padding-top: 20px;
+     color: rgba(0, 0, 0, 0.6);
+
+}
+#section4>h1{
+    /* border: 2px solid red; */
+    color:black;
+    font-size: 45px;
+}
+
+
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width:430px) 
+{
+    #section3{
+    /* border: 4px solid blueviolet; */
+    margin-top: 12%;
+    height: 450px;
+    background-color:black;
+}
+#section3>h1{
+    /* border: 3px solid green; */
+    margin-left: 0%;
+    padding-top: 8%;
+    padding-left: 10px;
+    font-size: 30px;
+}
+#section3>h1+video{
+    /* border: 4px solid blue; */
+    height: 300px;
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 4%;
+
+}
+#section4{
+    /* border: 3px solid green; */
+    width: 100%;
+    margin-left:0%;
+    padding-left: 10px;
+    margin-right:0%;
+    margin-top: 10%;
+    
+}
+#there-an{
+    /* border: 2px solid blueviolet; */
+    padding-top: 5%;
+    display: flex;
+     overflow-x: scroll;
+    /* flex-direction: row-reverse; */
+    gap: 40px;
+
+}
+.there-an>img+h1{
+    /* border: 2px solid red; */
+    color: black;
+    padding-top: 30px;
+}
+.there-an>img+h1+p{
+    /* border: 2px solid yellow; */
+    padding-top: 20px;
+     color: rgba(0, 0, 0, 0.6);
+
+}
+#section4>h1{
+    /* border: 2px solid red; */
+    color:black;
+    font-size: 35px;
+}
+
+}
